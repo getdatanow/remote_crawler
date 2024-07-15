@@ -1,0 +1,15 @@
+{
+    "title": "Scrape data from a web page",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "keyword for job search",
+            "type": "string",
+            "description": "Data of the jobs for this keyword",
+            "editor": "textfield",
+            "prefill": "python"
+        }
+    },
+    "required": ["keyword"]
+}
